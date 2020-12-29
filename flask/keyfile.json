@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "nordcloud-300113",
+  "private_key_id": "b0f3404beb81f0d5576b0ee87a1f000bbc0a8731",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCST+3Zk9vHArYW\nPMzThoMcoNJ6da21zU2LuBbbiNgcJYpzTIPuMDVGcW6qP9VKKqZNimALJwV4zCcV\nj0W9ooYgQVRDm0v+bc4EcaP8ZH1asojCftvSBOz2c5s68AjnZK5+SUSsBDnROM9e\neOsnuRGtEj0Pf8KaUom9nBE5/sGkXvMlwUS9yxzJ1LIvBKp5RblyBueEoojEMlM6\nrVunGMV4NpxOtlU2za+4pEhAyxZ+YA1OYn7mE6rrUXkPPHbqLu+z2JODXNkujTWN\nLb7s3hR8iDgm4iYyMz/ti5lJ+ErY2sD+p+kkF8ks5RicTHdCSjzkHbXMN3XKEd3P\nSVRIXiWjAgMBAAECggEAOuTJjOcjdDv3J4RZvltKs19Y2co8ng2BxVfYe43dz5ac\n4ERQZrQo/a3zKbyAElaQkm28s0CFx1YF9XuySt78tkcVsBD2yfdREiDcLWAVxUhQ\nHFoMCcHJ0HpAZbzxGJNCWbsMVWFuFHWVoyVxIpAwOUY6Jd77ajsHDrefh4SwVYT2\n889z8aTioqiykzIasQPdSoPHy4cxXCh2u05xzB4CaqywX1IwHAC6s19ew8ktItUJ\n/CzNUCgxyR1Q81JJevGxFT7vBbYqkl2pD6smbGmgvcgtiYQOKUve1/leEZuTt6Dv\na2jbkgXn00D4l3lFMf8HgoAdOSZ+k3ubET3TZW644QKBgQDCZCh3c+Wxvc0CmE3x\nixg/t9B22A+weeT4V84EjzyQN9nBVfS3Qo0/v8vPkIrDt5VmW8LjD2/GqOKFDsCJ\n1FvkYDiHyVCFcIijXSugtR0uxcYWhQ7PNupjCpqhMlIfX1G0XGZw7sCT7e74DXEM\ng2WYwE7g6SqAavi/qE436OVCjwKBgQDArucFaGYEYTOddktzsFsQPNx6YpkCGk5p\n8xYtpnoNprGaTVB4W5M/S0/uKGQue3cIImtYouvDLKpms2Z9vs3Xq9FhRhbh9rBX\n1Q6srnTN4sSpPkhWlI3q3Lp9FyDlsGC6OKuHPdPLJaUUBAdGJel6jT1E+p2ONvqL\nOHqUotalrQKBgQC/r6ZbzHR25dOwOGG7ys55npe5aWtnOXv5DBSCWIB/MiPPSySK\nRd0lPMsMfdroDjMLgXbXEpTFUCo2zQo9n6ORuvRjqbd2Ljb+6NQpoA8L3UhtUn39\nBYjxazZ5uDZU61iVQvxdZoGOHfUks5SDo1pe21us2x/nDBUIYT3oUgcorwKBgBU2\nbCqVPr32sYcBUfcvkCbufFtg5XVszfsuDuABtugv1Nem8Vf+xOwv72HJwpW3c/hK\nScUdUpVPIodh8sOfMOwwd0GdRMGlte5Ff3MVVbig4YO8XpxhiGo12LYSyMVgsJVv\nzbp63Qk9YLoeY2qem+CpEfi5GoVgmh6fnick8jqVAoGADtTjU16DlaeVf5eqyeib\nfRJAdefCLYIbvRcimOpnQ3CnRPLxbvl1j/xyTq+Xgh+CqqztC+b6YJW+ocC4auqs\n6zYMIeYjxqHJDja+adyf3/zOjdQ1UVGfrf72dyIY6Ndal4rLhVVwiEIPw2SKUeU0\nIStagYPPXA9R60IB64XsL+w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "duclu1@nordcloud-300113.iam.gserviceaccount.com",
+  "client_id": "108708555690736657648",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/duclu1%40nordcloud-300113.iam.gserviceaccount.com"
+}
