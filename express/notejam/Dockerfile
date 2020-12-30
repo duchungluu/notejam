@@ -1,12 +1,16 @@
 # version of node to use
-FROM node:8
+FROM node:12
 # define working directory for docker
-WORKDIR /usr/src/app
+WORKDIR /app
 # copy all our source code into the working directory
-COPY . .
+COPY ["package.json", "package-lock.json*", "./"]
+
 # install npm dependencies and pm2
-RUN npm install --only=production && npm install -g pm2
+RUN npm install 
 # expose port 3000 for our server to run on
+
+COPY . .
+
 EXPOSE 3000
 # command to start our server
-CMD [ "pm2-runtime", "start" ]
+CMD [ "node", "/bin/wwww" ]
