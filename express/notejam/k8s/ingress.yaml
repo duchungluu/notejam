@@ -1,10 +1,11 @@
-apiVersion: extensions/v1beta1
-kind: Ingress
+apiVersion: "extensions/v1beta1"
+kind: "Ingress"
 metadata:
-  name: gke-test-ingress
+  name: "gke-test-ingress"
+  namespace: "default"
   annotations:
     kubernetes.io/ingress.global-static-ip-name: "gke-test-ip"
 spec:
   backend:
-    serviceName: gke-test-deployment
+    serviceName: "gke-test-deployment"
     servicePort: 3000
