@@ -13,4 +13,4 @@ COPY . .
 
 EXPOSE 3000
 # command to start our server
-CMD [ "node", "/bin/wwww" ]
+CMD [ "node", "./bin/www" ]
