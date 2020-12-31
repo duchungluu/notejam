@@ -95,11 +95,13 @@ Tech stack: Node ExpressJs, Sqlite, Cloud Run, Terraform, Container Registry, Do
 
 Implementation:
 
-.. Add Dockerfile + .dockerignore to create Docker image
+.. Preq: GCP service account, Docker, K8s, node, editor
 .. 
 
+0. Add Dockerfile + .dockerignore to create Docker image
+
 1. Create and push Docker image to Container Registry    
-    $gcloud builds submit --tag gcr.io/<project-id>/gke-test-image:v1 .
+    .. code-block $gcloud builds submit --tag gcr.io/<project-id>/gke-test-image:v1 .
 
 2. Create new GKE cluster to run the web app
     $gcloud container clusters create gke-test-cluster --disk-size 10 --num-nodes 2 --enable-autoscaling --min-nodes 2 --max-nodes 5 --zone europe-north1-a
