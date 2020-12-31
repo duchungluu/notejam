@@ -101,7 +101,8 @@ Implementation:
 0. Add Dockerfile + .dockerignore to create Docker image
 
 1. Create and push Docker image to Container Registry    
-    .. code-block $gcloud builds submit --tag gcr.io/<project-id>/gke-test-image:v1 .
+.. code-block:: bash 
+    $gcloud builds submit --tag gcr.io/<project-id>/gke-test-image:v1 .
 
 2. Create new GKE cluster to run the web app
     $gcloud container clusters create gke-test-cluster --disk-size 10 --num-nodes 2 --enable-autoscaling --min-nodes 2 --max-nodes 5 --zone europe-north1-a
