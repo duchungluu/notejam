@@ -56,7 +56,7 @@ kubectl autoscale deployment gke-test-app --cpu-percent=80 --min=1 --max=5
 
 1. Refactoring the code to JS 2017, update libraries
 
-2. Use microservices instead of monolith, deprecate Sqlite, use GCP Cloud SQL in the private VPC.
+2. Use microservices instead of monolith, deprecate Sqlite, use GCP Cloud SQL in the private VPC. not scalable
 
 3. More automation
 
