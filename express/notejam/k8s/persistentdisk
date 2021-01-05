@@ -11,9 +11,8 @@ spec:
       name: db-volume
   volumes:
   - name: db-volume
-    # This GCE PD must already exist.
     gcePersistentDisk:
-      pdName: my-data-disk
+      pdName: db-disk
       fsType: ext4
 
 
