@@ -1,11 +1,11 @@
 var settings = {
   development: {
-    db: "notejam.db",
-    dsn: "sqlite://notejam.db"
+    db: "./db/notejam.db",
+    dsn: "sqlite://db/notejam.db"
   },
   test: {
-    db: "notejam_test.db",
-    dsn: "sqlite://notejam_test.db"
+    db: "./db/notejam_test.db",
+    dsn: "sqlite://db//notejam_test.db"
   }
 };
 

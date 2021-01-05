@@ -26,7 +26,7 @@
     "passport-local": "1.0.0",
     "should": "*",
     "should-http": "*",
-    "sqlite3": "*",
+    "sqlite3": "^5.0.0",
     "static-favicon": "~1.0.0",
     "superagent": "*",
     "supertest": "0.*.*"

@@ -17,8 +17,16 @@ spec:
     spec:
       containers:
         - name: gke-test-image
-          image: gcr.io/nordcloud-300113/gke-test-image
+          image: gcr.io/nordcloud-300113/gke-test-image:v1
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
               protocol: TCP
+          volumeMounts:
+          - name: gke-test-storage
+            mountPath: /db
+      volumes:
+        - name: gke-test-storage
+          persistentVolumeClaim: 
+            claimName: gke-test-storage-claim
+            

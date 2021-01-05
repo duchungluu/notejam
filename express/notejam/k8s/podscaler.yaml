@@ -10,8 +10,8 @@ spec:
     kind: Deployment
     name: gke-test-deployment
     apiVersion: apps/v1beta1
-  minReplicas: 1
-  maxReplicas: 5
+  minReplicas: 2
+  maxReplicas: 8 #traffic 4 times more than typical
   metrics:
     - type: Resource
       resource:
